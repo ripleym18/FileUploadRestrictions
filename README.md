@@ -1,2 +1,3 @@
 # FileUploadRestrictions
 Assessment of circumvention of file upload restrictions
+The objective of this project is to exploit vulnerabilities with file upload restrictions using a technique similar to a trojan horse. This will allow for the execution of commands on a remote system without supplying authorized user credentials, imitating a reverse shell. Several popular ways of restricting file uploads are bypassed, leading to the success of this method when certain system conditions are met. The project embeds php code into the metadata of an image file, which is then uploaded to a server. A virtual attack machine is used in order to execute the commands within the metadata from the attack machine command line and obtain information from the server.
